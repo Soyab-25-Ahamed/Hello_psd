@@ -1,0 +1,197 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+   /* font-family: 'Playfair Display', serif; */
+}
+.no-padding{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar-light .navbar-nav .nav-link .active{
+    color: #303030;
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #303030;
+}
+.zeus.tparrows{
+    display: none;
+}
+.metis .tp-bullet{
+    display: none;
+}
+.about-content h2{
+    font-size: 60px;
+    color: #252525;
+    font-family: 'Montserrat', sans-serif;
+}
+.about-content h5{
+    font-size: 34px;
+    color: #242424;
+    font-family: 'Montserrat', sans-serif;
+}
+.about-content span{
+    color: #ffc000;
+}
+.about-content p{
+    font-size: 15px;
+    color: #6b6b6b;
+   
+}
+.about-content button{
+    color: #141414;
+    font-size: 16px;
+}
+.expertices{
+    background-image: linear-gradient(to right, #fa1a3b, #fb3d35, #fb5431, #fa672e, #f9782e);
+}
+.expertices h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 46px;
+}
+.expert-single p{
+    position: relative;
+    font-size: 20px;
+}
+.expert-single p:after{
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 20px;
+    background-color: #fff;
+    left: 50%;
+    top: 30%;
+}
+.button-group button{
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+}
+.grid-item{
+    float: left;
+    width: 16.6666%;
+    height: auto;
+    position: relative;
+
+  }
+.grid-sizer{
+    width: 16.6666%;
+}
+.grid-item--width2 { 
+    width: 33.33333%; 
+}
+.mymasonry-overlay{
+    position:absolute;
+    background-color: rgba(57, 57, 57, .9);
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    opacity: 0;
+
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+
+
+}
+.grid-item:hover .mymasonry-overlay{
+    opacity: 1;
+    transform: scale(.9);
+}
+.mymasonry-overlay i{
+    font-size: 50px;
+}
+.blog-single{
+    float: left;
+    width: 33.3333%;
+    height: auto;
+    overflow: hidden;
+}
+.blog-sizer{
+    width: 33.3333%;
+}
+.contact{
+    position: relative;
+}
+.contact-single{
+    display: block;
+    z-index: -1;
+}
+.contact-single i{
+    color: #bcbcbc;
+    border: 1px solid #bcbcbc;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    transition: .5s; 
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.contact-single:hover i{
+    color: #fd9736;
+    border: 1px solid #fd9736;
+}
+#shoe-1, #shoe-2, #shoe-3, #shoe-4, #shoe-5, #shoe-6{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1; 
+}
+#shoe-1{
+    background: url(../images/p1.png ) no-repeat;
+}
+#shoe-2{
+    background: url(../images/p2.png ) no-repeat;
+}
+#shoe-3{
+    background: url(../images/p3.png ) no-repeat;
+}
+#shoe-4{
+    background: url(../images/p4.png ) no-repeat;
+}
+#shoe-5{
+    background: url(../images/p5.png ) no-repeat;
+}
+#shoe-6{
+    background: url(../images/p6.png ) no-repeat;
+}
+.form-single{
+    width: 570px;
+}
+.form-single input{
+    border-radius: 0;
+}
+textarea.form-control{
+    border-radius: 0;
+}
+.form-single button{
+    border-radius: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+#map{
+    width: 100%;
+    height: 550px;
+}
+
+
+
+
+
+
+
+  
